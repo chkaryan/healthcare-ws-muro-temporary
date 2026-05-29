@@ -19,7 +19,7 @@ Serial.println
 // Start up the library
 sensors.begin();
 // Initialize the LCD
-lcd.begin();
+lcd.init();
 // Turn on the backlight
 lcd.backlight();
 lcd.print(" WELCOME ");

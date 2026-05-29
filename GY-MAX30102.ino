@@ -25,7 +25,7 @@ void setup()
 Serial.begin(115200);
 // Start serial communication at 115200 baud rate
 Serial.println("Initializing...");
-lcd.begin();
+lcd.init();
 lcd.backlight();
 lcd.setCursor(0, 0);
 lcd.print(" WELCOME ");
